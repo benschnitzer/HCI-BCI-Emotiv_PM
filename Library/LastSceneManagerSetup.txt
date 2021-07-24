@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/EmotivUnityPlugin_CarRace.unity
+- path: Assets/EmotivUnityPlugin_RaceTrack.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

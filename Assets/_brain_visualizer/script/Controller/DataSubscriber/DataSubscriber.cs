@@ -20,8 +20,10 @@ namespace dirox.emotiv.controller
         [SerializeField] private Text  motData;      // motion data 
         [SerializeField] private Text  pmHeader;     // header of performance metric data
         [SerializeField] private Text  pmData;       // performance metric data
+    
         float _timerDataUpdate = 0;
         const float TIME_UPDATE_DATA = 1f;
+
 
         void Update() 
         {
@@ -95,8 +97,8 @@ namespace dirox.emotiv.controller
                 }
             }
             //Debug.Log(DataStreamManager.Instance.GetPMLists());
-            //Debug.Log(pmHeader.text);
-            //Debug.Log(pmData.text);
+            Debug.Log(pmHeader.text);
+            Debug.Log(pmData.text);
         }
 
         public override void Activate()

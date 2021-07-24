@@ -6,6 +6,7 @@ public class UIRadarChart : MonoBehaviour
 {
     [SerializeField] private Material radarMaterial;
     private Stats stats;
+    [SerializeField]
     private CanvasRenderer radarMeshCanvasRenderer;
 
     public float stressValue;
@@ -13,7 +14,7 @@ public class UIRadarChart : MonoBehaviour
 
     private void Awake()
     {
-        radarMeshCanvasRenderer = transform.Find("RadarMesh").GetComponent<CanvasRenderer>();
+        //radarMeshCanvasRenderer = transform.Find("RadarMesh").GetComponent<CanvasRenderer>();
     }
 
     public void SetStats(Stats stats)

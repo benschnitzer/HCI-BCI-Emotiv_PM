@@ -13,22 +13,6 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private GameObject spawnPoint;
 
-    private void Update()
-    {
-        //Debug.Log(uiRadarChart.stressValue);
-        /*rotation = Input.GetAxis("Horizontal") * rotationSpeed;
-
-        transform.Translate(Vector3.forward * Time.deltaTime * speed / uiRadarChart.stressValue);
-
-        transform.Rotate(0, rotation, 0);
-
-        if (transform.position.y < 2)
-        {
-            transform.position = spawnPoint.transform.position;
-            transform.rotation = spawnPoint.transform.rotation;
-        }*/
-    }
-
     private void FixedUpdate()
     {
 

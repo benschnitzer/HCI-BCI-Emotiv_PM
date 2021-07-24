@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>7.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,9 +53,6 @@
     <UnityVersion>2020.3.1f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets/_brain_visualizer/script/Controller/BaseManager.cs" />
     <Compile Include="Assets/Demigiant/DOTween/Examples/Sequences.cs" />
     <Compile Include="Assets/_brain_visualizer/script/Controller/ConnectionIndicator/ConnectionQualityIndicator.cs" />
@@ -66,7 +63,9 @@
     <Compile Include="Assets/_brain_visualizer/script/Controller/MutlipleViewManager.cs" />
     <Compile Include="Assets/_brain_visualizer/script/DeviceConnection/ConnectedDevice.cs" />
     <Compile Include="Assets/_brain_visualizer/script/Controller/ContactQuality/ContactQualityBaseManager.cs" />
+    <Compile Include="Assets/race-track-lake/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs" />
     <Compile Include="Assets/_brain_visualizer/script/Controller/ConnectHeadset/ConnectHeadsetController.cs" />
+    <Compile Include="Assets/Scripts/Testing.cs" />
     <Compile Include="Assets/_brain_visualizer/script/3D/Headset3DController.cs" />
     <Compile Include="Assets/_brain_visualizer/script/Controller/ConnectionIndicator/BaseIndicator.cs" />
     <Compile Include="Assets/_brain_visualizer/script/Controller/ConnectionIndicator/BatteryIndicator.cs" />
@@ -76,7 +75,10 @@
     <Compile Include="Assets/_brain_visualizer/script/Controller/ConnectionIndicator/ConnectionIndicatorGroup.cs" />
     <Compile Include="Assets/_brain_visualizer/script/Controller/1_Cortex/UI_ConnectingToCortex.cs" />
     <Compile Include="Assets/_brain_visualizer/script/Controller/1_Cortex/UI_TrialExpired.cs" />
+    <Compile Include="Assets/Scripts/UIRadarChart.cs" />
     <Compile Include="Assets/_brain_visualizer/script/Controller/ContactQuality/ContactQualityColorSetting.cs" />
+    <Compile Include="Assets/Scripts/Stats.cs" />
+    <Compile Include="Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/_brain_visualizer/script/Controller/ConnectHeadset/ConnectHeadsetElement.cs" />
     <Compile Include="Assets/_brain_visualizer/script/Controller/ContactQuality/ContactQualityNodeView.cs" />
     <Compile Include="Assets/_brain_visualizer/script/Controller/1_Cortex/UI_InstallEmotivApp.cs" />
@@ -87,11 +89,6 @@
     <Compile Include="Assets/_brain_visualizer/script/DeviceConnection/ConnectionHandler.cs" />
     <Compile Include="Assets/_brain_visualizer/script/Controller/ConnectHeadset/ConnectHeadsetAdapter.cs" />
     <Compile Include="Assets/_brain_visualizer/script/Controller/ContactQuality/ContactQualityController.cs" />
-    <Compile Include="Assets/Scripts/UIRadarChart.cs" />
-    <Compile Include="Assets/Scripts/Stats.cs" />
-    <Compile Include="Assets/race-track-lake/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs" />
-    <Compile Include="Assets/Scripts/Testing.cs" />
-    <Compile Include="Assets/Scripts/PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Demigiant/DOTween/DOTween46.xml" />

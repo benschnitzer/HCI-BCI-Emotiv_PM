@@ -147,7 +147,7 @@ namespace dirox.emotiv.controller
                 rootCanvasScaler.uiScaleMode     = CanvasScaler.ScaleMode.ScaleWithScreenSize;
             }
 
-            rootCanvasScaler.referenceResolution = new Vector2(1024, 768);
+            rootCanvasScaler.referenceResolution = new Vector2(1920, 1080);
             rootCanvasScaler.screenMatchMode     = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight;
             rootCanvasScaler.matchWidthOrHeight  = 0.5f;
             tempColor.a = 0f;
